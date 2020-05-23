@@ -42,7 +42,7 @@ class Overnightpackage : public Package{
 string Overnightpackage::toString() const {
 	stringstream aux;
 
-	aux << Package::toString() << "calculo Overnight: "<< Overnightpackage::Calculatecost()<<  endl;
+	aux << Package::toString() << " calculo Overnight: "<< Overnightpackage::Calculatecost()<<  endl;
 
 	return aux.str();
 }

@@ -41,7 +41,7 @@ double Twodaypackage::Calculatecost() const{
 string Twodaypackage::toString() const {
 	stringstream aux;
 
-	aux << Package::toString() << "calculo a dos días: "<< Twodaypackage::Calculatecost()<< endl ;
+	aux << Package::toString() << " calculo a dos días: "<< Twodaypackage::Calculatecost()<< endl ;
 
 	return aux.str();
 }
